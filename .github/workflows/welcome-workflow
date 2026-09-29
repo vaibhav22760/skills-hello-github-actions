@@ -8,3 +8,6 @@ jobs:
   welcome:
     name: Post welcome comment
     runs-on: ubuntu-latest
+  steps:
+    name: Welcome
+    run: echo "Welcome!"
